@@ -1,0 +1,148 @@
+body{
+    font-family:'Montserrat';
+    text-align:center;
+    margin:0;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+    font-weight:800;
+    line-height:1.5;
+}
+
+/* Containers */
+.container-fluid{
+    padding:7% 15%;
+}
+
+/* Headings */
+.big-heading{
+    font-size:3.5rem;
+}
+.medium-heading{
+    font-size:2.5rem;
+}
+
+.small-heading{
+    font-size:1.5rem;
+}
+
+#title{
+    background-color:#ff4c68;
+    color:#fff;
+    text-align: left;
+}
+
+#title .container-fluid{
+    padding:3% 15% 7%!important;
+}
+/*Navigation Bar */
+.navbar{
+    padding-bottom:4.5rem; 
+}
+.navbar-nav{
+    position:absolute;
+    right:0;
+}
+.nav-item{
+    padding:0 18px;
+}
+.navbar-brand{
+    font-family: 'Montserrat';
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.nav-link{
+    font-family: 'Montserrat';
+}
+.download-btn{
+    margin:5% 3% 5% 0;
+}
+
+/* Hero Image */
+.heroDiv{
+    text-align:left;
+position:relative;
+}
+.titleImage{
+    width:60%;
+    transform:rotate(25deg);
+    position:absolute;
+    right:28%;
+}
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .titleImage{
+        position:static;
+        transform:rotate(0);
+    }
+}
+
+/*Features Section */
+#features{
+    background:#fff;
+    position:relative;
+}
+ 
+.features p{
+    color:#8f8f8f;
+    font-size:1.1rem;
+    padding:0 6.5%;
+}
+.featuresIcon{ 
+    font-size:3.5rem;
+    color:#ef8172;
+    margin-bottom:1rem;
+}
+.featuresIcon:hover{
+    color:#ff4c68;
+    cursor:pointer;
+}
+
+/* Testimonials Section */
+#testimonials{
+    background-color: #ef8172;
+    color:#fff;
+}
+
+.testimonial-image{
+    width:10%;
+    border-radius:100%;
+    margin:20px;
+}
+
+#press{
+    background:#ef8172;
+    padding-bottom:3%;
+}
+.pressImage{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding:3% 2%;
+}
+
+/* CTA */
+#cta{
+    background:#ff4c68;
+    color:#fff;
+}
+
+/* Footer */
+#footer{
+    background:#fff;
+}
+.social-icons{
+    font-size:1rem;
+    margin:20px 10px;
+
+}
