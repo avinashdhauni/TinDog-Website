@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6{
 .small-heading{
     font-size:1.5rem;
 }
+/* Title */
 
 #title{
     background-color:#ff4c68;
@@ -60,7 +61,6 @@ h1, h2, h3, h4, h5, h6{
 
 /* Hero Image */
 .heroDiv{
-    text-align:left;
 position:relative;
 }
 .titleImage{
@@ -76,6 +76,7 @@ position:relative;
     .titleImage{
         position:static;
         transform:rotate(0);
+        text-align:center;
     }
 }
 
