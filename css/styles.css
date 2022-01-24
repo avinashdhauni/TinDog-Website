@@ -1,7 +1,7 @@
 body{
     font-family:'Montserrat';
     text-align:center;
-    margin:0;
+    width:100vw;    
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat';
@@ -79,12 +79,19 @@ position:relative;
     right:28%;
 }
 
-@media (max-width:1028px){
+@media (max-width:992px){
+  
     #title{
         text-align: center;
     }
     #cta .big-heading{
-        font-size:2.5rem!important;
+        font-size:1.5rem!important;
+    }
+    .big-heading{
+        font-size:2.5rem;
+    }
+    .medium-heading{
+        font-size:1.5rem;
     }
     .titleImage{
         position:static;
@@ -136,7 +143,7 @@ position:relative;
 
 /*Pricing*/
 #pricing{
-    padding:100px;
+    padding:10%;
     text-align: center;
 }
 
