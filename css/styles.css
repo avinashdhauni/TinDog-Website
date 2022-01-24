@@ -25,17 +25,26 @@ h1, h2, h3, h4, h5, h6{
 .small-heading{
     font-size:1.5rem;
 }
+
+/* Sections */
+.colored-section{
+    background:#ff4c68;
+    color:#fff;
+}
+.white-section{
+    background:#fff;
+}
+
 /* Title */
 
 #title{
-    background-color:#ff4c68;
-    color:#fff;
     text-align: left;
 }
 
 #title .container-fluid{
     padding:3% 15% 7%!important;
 }
+
 /*Navigation Bar */
 .navbar{
     padding-bottom:4.5rem; 
@@ -69,9 +78,13 @@ position:relative;
     position:absolute;
     right:28%;
 }
+
 @media (max-width:1028px){
     #title{
         text-align: center;
+    }
+    #cta .big-heading{
+        font-size:2.5rem!important;
     }
     .titleImage{
         position:static;
@@ -82,7 +95,6 @@ position:relative;
 
 /*Features Section */
 #features{
-    background:#fff;
     position:relative;
 }
  
@@ -103,10 +115,11 @@ position:relative;
 
 /* Testimonials Section */
 #testimonials{
-    background-color: #ef8172;
-    color:#fff;
+    background: #ef8172;
 }
-
+#press{
+    background:#ef8172;
+}
 .testimonial-image{
     width:10%;
     border-radius:100%;
@@ -114,7 +127,6 @@ position:relative;
 }
 
 #press{
-    background:#ef8172;
     padding-bottom:3%;
 }
 .pressImage{
@@ -133,15 +145,8 @@ position:relative;
 }
 
 /* CTA */
-#cta{
-    background:#ff4c68;
-    color:#fff;
-}
 
 /* Footer */
-#footer{
-    background:#fff;
-}
 .social-icons{
     font-size:1rem;
     margin:20px 10px;
